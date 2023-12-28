@@ -15,6 +15,8 @@
 		9BC866972B3D5B1A00F17E1E /* apple1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC866962B3D5B1A00F17E1E /* apple1Tests.swift */; };
 		9BC866A12B3D5B1A00F17E1E /* apple1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC866A02B3D5B1A00F17E1E /* apple1UITests.swift */; };
 		9BC866A32B3D5B1A00F17E1E /* apple1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC866A22B3D5B1A00F17E1E /* apple1UITestsLaunchTests.swift */; };
+		9BC866B22B3D5F0C00F17E1E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC866B12B3D5F0C00F17E1E /* CircleImage.swift */; };
+		9BC866B42B3D5FEA00F17E1E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC866B32B3D5FEA00F17E1E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		9BC8669C2B3D5B1A00F17E1E /* apple1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apple1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC866A02B3D5B1A00F17E1E /* apple1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple1UITests.swift; sourceTree = "<group>"; };
 		9BC866A22B3D5B1A00F17E1E /* apple1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BC866B12B3D5F0C00F17E1E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9BC866B32B3D5FEA00F17E1E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			children = (
 				9BC866832B3D5B1800F17E1E /* apple1App.swift */,
 				9BC866852B3D5B1800F17E1E /* ContentView.swift */,
+				9BC866B12B3D5F0C00F17E1E /* CircleImage.swift */,
+				9BC866B32B3D5FEA00F17E1E /* MapView.swift */,
 				9BC866872B3D5B1800F17E1E /* Item.swift */,
 				9BC866892B3D5B1900F17E1E /* Assets.xcassets */,
 				9BC8668B2B3D5B1900F17E1E /* Preview Content */,
@@ -261,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC866862B3D5B1800F17E1E /* ContentView.swift in Sources */,
+				9BC866B22B3D5F0C00F17E1E /* CircleImage.swift in Sources */,
+				9BC866B42B3D5FEA00F17E1E /* MapView.swift in Sources */,
 				9BC866882B3D5B1800F17E1E /* Item.swift in Sources */,
 				9BC866842B3D5B1800F17E1E /* apple1App.swift in Sources */,
 			);
