@@ -10,11 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack (alignment:.leading){
+            Text("梧桐大道")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            HStack{
+                Text("钟山名胜景区")
+                    .font(.subheadline)
+                Spacer()
+                Text("南京")
+                    .font(.subheadline)
+            }
         }
         .padding()
     }
